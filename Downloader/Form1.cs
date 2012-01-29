@@ -39,7 +39,7 @@ namespace Downloader
             StringBuilder sb = new StringBuilder();
             foreach (T x in array)
             {
-                sb.Append(String.Format("{0:X}", x));
+                sb.Append(String.Format("{0:X2}", x));
             }
             return sb.ToString();
         }
